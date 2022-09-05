@@ -1,0 +1,23 @@
+﻿body
+{
+}
+.nuts a {
+    text-decoration: none;
+    font-size: 18px;
+    width: 300px;
+    
+    border: 1px solid #b22830;
+    padding: 8px 107px;
+    display: block;
+    border-radius: 10px;
+    color: #b22830;
+    margin: auto;
+    margin-top:1180px;
+    margin-bottom: 60px
+}
+ .nuts a:hover {
+    background: #b22830;
+    color: white;
+    
+    -webkit-transition: all 1s ease;
+}

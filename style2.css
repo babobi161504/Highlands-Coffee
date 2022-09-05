@@ -1,0 +1,119 @@
+﻿body
+{
+}
+.map p {
+    color: #53382c;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 35px 0px 20px 200px;
+}
+
+.gridF {
+    padding: 0 50px
+}
+
+    .gridF .col2 {
+        float: left;
+        width: 13.85%;
+    }
+
+.formSearch select, .formSearch input {
+    height: 40px;
+    border: none;
+    border-bottom: solid 1px #e4e4e4;
+    background: #f5f5f5;
+    padding: 0 15px 0 0;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 0 0 140px
+}
+
+.div_auto_complete .dropdown_select ul li {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #333333;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.div_auto_complete .dropdown_select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow: auto;
+    background: #ffffff;
+    margin-top: 1px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.list-filters li span.icon i {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.formSearch .btn-submit-search:hover {
+    background: #b22830;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.formSearch .btn-submit-search {
+    width: 100px;
+    float: right;
+    color: #ffffff;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    background: #53382c;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-transition: all 0.5s;
+    margin: -40px 130px 0 0
+}
+
+.formSearch .col3 .form-control {
+    width: 255px;
+}
+
+.map2 iframe {
+    float: right;
+    z-index: 1;
+    margin: -650px 171px 0 0
+}
+
+div.cot {
+    width: 250px;
+    height: 600px;
+    overflow: auto;
+    margin: 25px 0 50px 197px;
+    border: solid 1px #e4e4e4;
+}
+
+.cot p {
+}
+
+.cot .thongtin p {
+    padding: 0 0;
+}

@@ -1,0 +1,35 @@
+﻿body
+{
+}
+
+.p{
+    max-width:80px
+}
+.cafe1 a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+    .cafe1 a:hover {
+        color: red
+    }
+
+.an a {
+    color: #b22830;
+    border: 1px solid #b22830;
+    text-decoration: none;
+    padding: 7px 70px;
+    border-radius: 5px;
+    
+}
+    .an a:hover {
+        color: white;
+        background: #b22830;
+        transition: all 0.3s linear;
+    }
+.anh img {
+    border: 1px solid #e4e4e4;
+}
+.cafe1 img:hover {
+    transform: scale(1.05);
+}

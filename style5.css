@@ -1,0 +1,208 @@
+﻿body
+{
+}
+.nen1 {
+    background: #f1bc7a;
+    height: 420px
+}
+.nen1 img {
+    border: 0px;
+    max-width: 100%;
+    width:50%;
+    float:right
+}
+    .nen1 img::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 59%, rgba(255,255,255,0) 100%);
+        background-image: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+        background-image: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+        z-index: 1;
+        pointer-events: none;
+    }
+.khoinguon1 {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 0 0
+}
+    .khoinguon1 a {
+        text-decoration: none;
+        font-size: 45px;
+        font-weight: 700;
+        color:  #53382c;
+    }
+        .khoinguon1 a:hover {
+            color: white;
+            transition: all 0.3s linear;
+        }
+.khoinguon1 p{
+    line-height: 23px;
+   
+}
+.buttom1 {
+    padding: 30px;
+    margin: 0 0 30px 0;
+}
+.buttom1 a {
+    border: 1px solid #b22830;
+    text-transform: uppercase;
+    color: #b22830;
+    text-decoration: none;
+    padding: 7px 63px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left:120px;
+    
+}
+    .buttom1 a:hover {
+        background: #b22830;
+        color: #ffffff;
+        transition: all 0.3s linear;
+    }
+.nen2 {
+    background: #bd945d;
+    height: 427px
+}
+.nen2 img {
+    border: 0px;
+    max-width: 100%;
+    width: 50%;
+    float: left;
+
+}
+
+    .nen2 img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 59%, rgba(255,255,255,0) 100%);
+        background-image: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+        background-image: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+        z-index: 1;
+        pointer-events: none;
+    }
+.khoinguon2 {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 0 0;
+    Text-align: right
+}
+
+    .khoinguon2 a {
+        text-decoration: none;
+        font-size: 45px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+        .khoinguon2 a:hover {
+            color: #f1bc7a;
+            transition: all 0.3s linear;
+        }
+
+    .khoinguon2 p {
+        line-height: 23px;
+        color: #ffffff;
+    }
+
+
+.buttom2 {
+    padding: 30px;
+    margin: 0 120px 100px 0;
+    Text-align: right
+}
+
+    .buttom2 a {
+        border: 1px solid #ffffff;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 7px 63px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-left: 120px;
+    }
+
+        .buttom2 a:hover {
+            background: #ffffff;
+            color: #b22830;
+            transition: all 0.3s linear;
+            border: #ffffff;
+        }
+.nen3 {
+    background: #8e5a2d;
+    height:374px
+}
+.nen3 img {
+    border: 0px;
+    max-width: 100%;
+    width: 50%;
+    float: right
+}
+
+.nen3 img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 59%, rgba(255,255,255,0) 100%);
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.khoinguon3 {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 0 0;
+    
+}
+
+    .khoinguon3 a {
+        text-decoration: none;
+        font-size: 45px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+        .khoinguon3 a:hover {
+            color: #f1bc7a;
+            transition: all 0.3s linear;
+        }
+
+    .khoinguon3 p {
+        line-height: 23px;
+        color: #ffffff;
+    }
+.buttom3 {
+    padding: 30px;
+    margin: 0 0 30px 0;
+}
+
+    .buttom3 a {
+        border: 1px solid #ffffff;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 7px 63px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin-left: 120px;
+    }
+
+        .buttom3 a:hover {
+            background: #ffffff;
+            color: #b22830;
+            transition: all 0.3s linear;
+            border: #ffffff;
+        }

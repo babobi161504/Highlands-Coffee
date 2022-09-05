@@ -1,0 +1,374 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:  'Open Sans', sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #b22830;
+    
+    height: 120px;
+}
+    .navbar .search {
+        float: right;
+        margin-right: 200px;
+        margin-top: 30px;
+        display: block
+    }
+        .navbar .search input, button {
+            height: 30px
+        }
+        .navbar .search input {
+            width: 200px;
+            font-style: italic;
+        }
+        .navbar .search img {
+            margin: 0px 0 0 0;
+            float: right;
+            padding:5px;
+            
+        } 
+    .navbar img {
+        max-width: 110px;
+        max-height: 85px;
+        float: left;
+        margin-left:200px;
+        margin-top: 20px
+    }
+    
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-top: 80px;
+        margin-left: 13px
+    }
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-top: 80px
+}
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font: inherit;
+        margin: 0;
+        height: 40px
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #53382c;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #53382c;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content .header {
+        background: red;
+        padding: 16px;
+        color: #f1bc7a;
+    }
+
+    
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 12%;
+    padding: 0px;
+    background-color: #53382c;
+    height: 250px;
+    margin-left:40px
+}
+
+    .column a {
+        
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        width: 230px;
+        margin:0 0 0 0
+    }
+
+        .column a:hover {
+            background-color: #53382c;
+        }
+        .column a h3 {
+            color: #f1bc7a;
+            font-size: 16px;
+            height: 2px;
+            -webkit-transition: all 0.3s ease;
+        }
+        .column a h3:hover{
+            color: white
+        }
+       
+.column2 {
+    float: right;
+    background: url(image/bgmenu.jpg);
+    width: 200px;
+    padding: 10px;
+    height: 250px;
+    margin-right: 150px;
+
+}
+    .column2 .txt {
+        display: block;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: bold;
+        color: #f1bc7a;
+        font-weight: normal !important;
+        padding-right: 20%;
+        margin-top:5px;
+    }
+        .column2 .txt a {
+            margin-top: 5px;
+            width: 160px;
+            color: #f1bc7a;
+            -webkit-transition: all 0.3s ease;
+        }
+        .column2 .txt a:hover{
+            color: white;
+            background:none
+        }
+    .column2 img {
+        margin: 20px 0px 0px 22px;
+        max-width: 165px ;
+        max-height: 110px ;
+    }
+
+   
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: 100%;
+    }
+}
+.menu {
+    
+}
+    .menu .menu1 {
+        height: 360px;
+        background: url(image/background1.jpg);
+
+        max-height: 500px;
+        color: antiquewhite;
+
+    }
+        .menu .menu1 p {
+            width: 530px;
+            margin-left: 340px;
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+.menu .menu1 a {
+            font-size: 45px;
+            text-decoration: none;
+            color: antiquewhite;
+            margin-left: 310px;
+            padding: 30px;
+            display:block
+        }
+    .menu .menu1 a:hover {
+        color: red;
+        transition: all 0.3s ease;
+    }
+.menu1 .nut a {
+    font-size: 18px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid white;
+    padding:8px 74px;
+    display:block;
+    border-radius:10px;
+    margin-left: 337px;
+
+}
+    .menu1 .nut a:hover {
+        background: #b22830;
+        color: white;
+        border: #b22830;
+        transition: all 0.3s ease;
+    }
+    .menu1 img{
+        float: right;
+        margin: -286px 200px 0 0 
+    }
+.menu .menu2 {
+    height: 360px;
+    background: url(image/background2.jpg);
+    max-height: 500px;
+    color: #146400;
+}
+
+    .menu .menu2 p {
+        width: 530px;
+        margin-left: 900px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: justify
+    }
+
+    .menu .menu2 a {
+        font-size: 45px;
+        text-decoration: none;
+        color: #146400;
+        margin-left: 1130px;
+        padding: 30px;
+        display: block
+    }
+
+        .menu .menu2 a:hover {
+            color: red;
+            transition: all 0.3s ease;
+        }
+.menu2 .nut a {
+    font-size: 18px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #146400;
+    padding: 8px 74px;
+    display: block;
+    border-radius: 10px;
+    margin-right: 400px
+}
+    .menu2 .nut a:hover {
+        color: antiquewhite;
+        background: red;
+        border: red;
+        transition: all 0.3s ease;
+    }
+.menu2 img {
+    float: left;
+    margin: -234px 0 0 137px
+}
+.menu .menu3 {
+    height: 360px;
+    background: url(image/background3.jpg);
+    max-height: 500px;
+    color: antiquewhite;
+}
+
+    .menu .menu3 p {
+        width: 500px;
+        margin-left: 340px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .menu .menu3 a {
+        font-size: 45px;
+        text-decoration: none;
+        color: antiquewhite;
+        margin-left: 310px;
+        padding: 30px;
+        display: block
+    }
+
+        .menu .menu3 a:hover {
+            color: red;
+            transition: all 0.3s ease;
+        }
+
+.menu3 .nut a {
+    font-size: 18px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid white;
+    padding: 8px 74px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 335px
+}
+
+    .menu3 .nut a:hover {
+        background: #b22830;
+        color: white;
+        border: #b22830;
+        transition: all 0.3s ease;
+    }
+
+.menu3 img {
+    float: right;
+    margin: -261px 200px 0 0
+}
+.thanh {
+    background: #53382c;
+    height: 50px;
+    
+}
+     .thanh .symbol {
+        float: left;
+        margin: 10px 0 0 230px ;
+
+    }
+        .thanh .symbol a {
+            background: white;
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+            text-decoration: none;
+            color: #53382c;
+            font-size: 16px;
+            margin: 0 0 0 0;
+            
+        }
+    .thanh  .link {
+        color: white;
+        font-size: 13px;
+        padding: 16px;
+        margin: 0 0 0 330px 
+        
+    }
+        .thanh .link a {
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            background: #53382c;
+            
+            margin: 30px 0 0 20px;
+        }
+            .thanh .link a:hover {
+                color: #f1bc7a;
+                transition: all 0.3s ease;
+            }
+
+
+ 

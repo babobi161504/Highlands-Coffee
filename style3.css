@@ -1,0 +1,70 @@
+﻿body
+{
+}
+.congdong {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+    .congdong p {
+        font-size: 40px;
+        color: #53382c;
+        font-weight:700;
+    }
+
+.anh img {
+    width: 33.33333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+    .anh img:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+.chu a {
+    width: 33.33333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #333333;
+    margin-top: 25px;
+    height: 35px;
+    overflow: hidden;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+    .chu a:hover {
+        color: #882106;
+        transition: all 0.3s ease;
+    }
+
+.date p {
+    width: 33.33333%;
+    float: left;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    margin: 25px 0 30px 0
+}
+
+.congdong .date i {
+    width: 33.33333%;
+    float: left;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #b22830;
+    margin: 25px 0 30px 0
+}
